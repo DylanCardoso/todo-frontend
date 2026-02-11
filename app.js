@@ -1,5 +1,5 @@
-//const apiEndpoint = "https://fa-todo-backend-baqmes.azurewebsites.net/api/tasks";
-const apiEndpoint = "sql-210-fd21-cardoso-dylan.mysql.database.azure.com";
+// changement: l'api était fausse. c'étais l'URL de la DB
+const apiEndpoint = "https://container-210-fd21-cardoso-dylan.blackground-4fe60292.northeurope.azurecontainerapps.io";
 
 $(document).ready(function () {
   // Charger les tâches au démarrage
