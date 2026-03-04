@@ -46,6 +46,9 @@ jobs:
         with:
           urls: |
             https://green-field-0a68bf803.2.azurestaticapps.net/
+          uploadArtifacts: true
+          temporaryPublicStorage: true
+          configPath: "./.lighthouserc.json"
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
